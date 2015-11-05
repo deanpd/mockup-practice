@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+
+a { text-decoration: none;
+    font-family: "Arial", Gadget, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+h1 { color: rgb(133, 105, 180);
+     padding: 1rem;
+     font-family: "Arial", Gadget, sans-serif;
+     background-color: white;
+     text-align: center;
+}
+header li { float: left;
+            padding: 1rem 3rem;
+            background-color: rgb(133, 105, 180);
+            border-right: .25rem solid rgb(107, 79, 154);
+}
+aside { clear: both;
+        float: left;
+        max-width: 20%;
+        padding: 4rem 4rem 12rem 4rem;
+        background-color: rgb(192, 178, 213);
+}
+aside li { padding: 0rem 0rem 2rem 0rem;
+}
+article { float: left;
+          max-width: 80%;
+          background-color: rgb(225, 228, 233);
+          text-align: center;
+          padding: 4rem 4rem 2rem 4rem;
+}
+article p { width: 85%;  
+            margin: auto;
+            padding: 1.5rem;
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: .8rem;
+}
+footer { clear: both;
+         background-color: white;
+         padding: 2rem;
+         text-align: center;
+}
+footer img { height: 4rem;
+             padding: 1rem 1rem 1rem 1rem;
+}
